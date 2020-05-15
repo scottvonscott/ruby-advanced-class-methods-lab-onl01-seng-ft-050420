@@ -42,7 +42,7 @@ end
      song = self.new
      file_split = []
      file_split = file_name.split(/[-.]/)
-     binding.pry
+    #  binding.pry
      self.new_by_name(file_split[1].strip)
    end
 
