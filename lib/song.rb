@@ -41,7 +41,7 @@ end
    def self.new_from_filename(file_name)
      song = self.new
      file_split = []
-     file_split = file_name.split(/[ - .]/)
+     file_split = file_name.split(/[-.]/)
     #  binding.pry
      self.new_by_name(file_split[1])
    end
