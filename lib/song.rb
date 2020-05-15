@@ -45,8 +45,8 @@ end
      song.artist_name = file_split[0].strip
      song.name = (file_split[1].strip)
       # binding.pry
-     name
-     artist_name
+     song.name
+     song.artist_name
    end
 
    def self.create_from_filename(file_name)
