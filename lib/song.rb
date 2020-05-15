@@ -43,7 +43,7 @@ end
      file_split = []
      file_split = file_name.split(/[-.]/)
      file_split[0].strip = artist_name
-    (file_split[1].strip) = name
+     file_split[1].strip = name
       # binding.pry
      song.name = name
      song.artist_name = artist_name
