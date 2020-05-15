@@ -45,7 +45,6 @@ end
      artist_name = file_split[0].strip
      song.name = file_split[1].strip
       # binding.pry
-     song.name = name
      song.artist_name = artist_name
      song
    end
