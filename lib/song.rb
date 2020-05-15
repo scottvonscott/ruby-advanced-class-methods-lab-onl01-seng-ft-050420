@@ -42,8 +42,8 @@ end
      song = self.new
      file_split = []
      file_split = file_name.split(/[-.]/)
-     artist_name = file_split[0].strip
-     name = (file_split[1].strip)
+     file_split[0].strip = artist_name
+    (file_split[1].strip) = name
       # binding.pry
      song.name = name
      song.artist_name = artist_name
