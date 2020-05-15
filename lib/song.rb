@@ -50,6 +50,13 @@ end
    end
 
    def self.create_from_filename(file_name)
+     song = self.new
+     file_split = []
+     file_split = file_name.split(/[-.]/)
+     artist_name = file_split[0].strip
+     song.name = file_split[1].strip
+     self.all << song
+     song
    end
 
    def self.destroy_all
