@@ -43,7 +43,7 @@ end
      file_split = []
      file_split = file_name.split(/[-.]/)
      binding.pry
-     self.new_by_name(file_split[1])
+     self.new_by_name(file_split[1].strip)
    end
 
    def self.create_from_filename(file_name)
