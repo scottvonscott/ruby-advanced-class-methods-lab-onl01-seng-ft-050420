@@ -47,7 +47,7 @@ end
       # binding.pry
      song.name = name
      song.artist_name = artist_name
-     2
+     song
    end
 
    def self.create_from_filename(file_name)
