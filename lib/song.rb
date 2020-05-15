@@ -44,7 +44,6 @@ end
      file_split = file_name.split(/[-.]/)
      artist_name = file_split[0].strip
      song.name = file_split[1].strip
-      # binding.pry
      song.artist_name = artist_name
      song
    end
@@ -55,6 +54,8 @@ end
      file_split = file_name.split(/[-.]/)
      artist_name = file_split[0].strip
      song.name = file_split[1].strip
+     binding.pry
+
      self.all << song
      song
    end
